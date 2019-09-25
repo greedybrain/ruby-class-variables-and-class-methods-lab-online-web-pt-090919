@@ -35,7 +35,7 @@ class Song
       if genre_amt.has_key?(genre)
         genre_amt[genre] += 1
       else
-        genre_amt[genre] = 1
+        genre_amt[genre] = 0
       end
     end
     genre_amt
